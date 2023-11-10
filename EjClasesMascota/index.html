@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+	<title>Clinica de veterinaria</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  type="text/css" href="css/estilos.css"> 
+</head>
+<body>
+	<div id="header">
+			<header>
+				<h2>Clínica y estética veterinaria </h2>
+			</header>
+    </div>
+        <div id="menu">
+			<nav>
+				
+				<div id="submenu1" style="display:block">
+					<ul>
+					<li><a>Menu</a> <br/></li>
+					<li><a href="dos.html">Opc1</a> <br/></li>
+					<li><a href="dos.html">Opc2</a> <br/></li>
+				</ul>
+
+				</div>
+				<br/>
+				
+			</nav>
+        </div>
+	<div id="contenido">
+			<section>
+				<form method="post" action="control.php">
+					<label>Costo de baño según la raza</label>
+					<select name="razas" class="content-select"> 
+						<option value="chihuahua">Chihuahua</option>
+						<option value="golden">Golden</option>
+						<option value="electrico">Electrico</option>
+						<option value="sanbernardo">San Bernardo</option>
+						<option value="frenshpoodle">Frensh Poodle</option>
+						<option value="husky">Husky</option>
+					</select><br><br>
+					
+					<label>Nombre del dueño</label>
+					<input type="text" id="txtDueno" name="txtDueno" autofocus required/><br><br>
+
+					<input type="submit" value="Calcular" class="button">
+				</form>
+			</section>
+	</div>	
+	<footer>
+		Todos los derechos reservados
+	</footer>		
+</body>
+</html>
+
+
